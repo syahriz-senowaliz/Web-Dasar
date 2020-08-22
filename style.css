@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+body {
+	margin: 0;
+   padding: 0;
+   font-family: 'Ubuntu', sans-serif;
+	background: rgb(233, 240, 253);
+	
+}
+
+#header-wrapper {
+	height: 240px;
+	background: url(aset/images/oprekers.jpg) no-repeat center top;
+}
+
+#header {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+#logo {
+	float: left;
+	height: 100px;
+	margin: 0;
+	padding: 0px;
+	color: rgb(255, 255, 255);
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-top: 100px;
+	padding-left: 30px;
+   letter-spacing: -1px;
+   text-shadow: #000000 -1px 1px 2px;
+	text-transform: uppercase;
+	font-family: 'Rubik', sans-serif;
+   font-size: 33px;
+   
+}
+
+#logo p {
+	margin: 0;
+	padding: 30px 0 0 34px;
+	text-shadow: #000005 -1px 1px 2px;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: rgb(56, 162, 233)
+}
+
+
+nav a {
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+ } 
+
+ nav a:hover {
+    font-weight: bold;
+ }
+ 
+
+
+h2, h3 {
+   color: rgb(37, 165, 240);
+}
+
+
+.profile header {
+    text-align: center;
+ }
+ 
+
+ .featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   text-align: center;
+   color: white;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+   background-color: #87CEFA;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+
+
+header {
+   display: inline;
+}
+
+.shadowbox {
+   width: 19em;
+   border: 2px solid rgb(37, 165, 240);
+   box-shadow: 8px 8px 5px #87CEFA;
+   padding: 8px 12px;
+   background-image: linear-gradient(180deg, #fff, rgb(235, 250, 255) 40%, rgb(37, 165, 240));
+}
+
+
+img {
+   float: left;
+   margin: 10px;
+}
+
+.center {
+   margin: 0 auto;
+}
+
+.box {
+   width: 100%;
+   border: 4px solid rgb(37, 165, 240);
+   padding: 10px ;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.container{width: 200px; margin:auto;}
+th{padding: 10px; background-color: rgb(107, 180, 248); color:white;}
+td{text-align: center; padding: 10px 0; background-color: #fbf7f7}
+#red{color:red;}
+h1{text-align: center;}
+
+
+
+#formKomentar{
+   border: 5px solid #d1d1d1;
+   width:500px;
+   padding:10px;
+}
+
+ input, textarea{
+    padding: 10px;
+    border:3px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+ }
+
+ input:focus, textarea:focus{
+    border:3px solid rgb(37, 165, 240);
+ }
+
+ textarea{
+    width:260px;
+ }
+
+
+ footer {
+   padding: 5px;
+   color: white;
+   background-color: #87CEFA;
+   text-align: center;
+   font-weight: bold;
+}
+
+ #footer {
+   margin: 4px auto 0 auto;
+text-align: center;
+border-top: dotted 2px rgb(0, 7, 14);
+padding: 4px 0 4px 0;
+width: 25%;
+}
+
+#footer p {
+margin: 0px;
+padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+#content,
+aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+ .goTop{
+   display: none;
+   width: 43px;
+   height: 43px;
+   background-color: rgb(56, 162, 233);;
+   position: fixed;
+   right: 40px;
+   top: 520px;
+   text-align: center;
+   padding: 5px;
+   font-size: 1.5em;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   border: 1px solid rgb(56, 56, 56);
+ 
+ }
+
+ 
+ 
